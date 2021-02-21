@@ -1,5 +1,5 @@
 module.exports = function () {
-    process.env.TZ = 'Europe/London';
+    process.env.TZ = 'UTC';
     return {
         files: ['src/**/*.ts'],
         tests: ['tests/**/*.test.ts'],
